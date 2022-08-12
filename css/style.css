@@ -1,0 +1,28 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-image: url("background.jpg");
+   
+    
+    
+}
+
+.navbar-brand{
+
+  font-family: cursive;
+  color: #a36550;
+  font-size: 18px;
+
+
+}
+
+.nav-item{
+  font-family: cursive;
+  color: #ec521e;
+
+}
+
+
+

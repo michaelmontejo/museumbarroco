@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BARROCO_BY_MICKEIMON</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Page Header  -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BREVE HISTORIA DEL BARROCO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://artsandculture.google.com/story/TwXRAJ4n33FeLA?hl=es"
+                target="_blank"
+                class="nav-link"
+                href="#"
+                >LINKS DE INTERES</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                LUGARES DE INTERES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="PICTURES.HTML" class="dropdown-item" href="#"
+                    >PINTURAS</a
+                  >
+                </li>
+                <li>
+                  <a href="CHURCH.HTML" class="dropdown-item" href="#"
+                    >IGLESIAS</a
+                  >
+                </li>
+                <li>
+                  <a href="LITERATURE.HTML" class="dropdown-item" href="#"
+                    >LITERATURA</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">EXTRAS</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- introduction pictures  -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="PICTURES/principal/architecture.jpg"
+            class="d-block w-100"
+            alt="architecture"
+            width="100"
+            height="600"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>ARQUITECTURA</h5>
+            <p>Representacion de la arquitectura barroca.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="PICTURES/principal/realpicture.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="100"
+            height="600"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>PINTURAS</h5>
+            <p>La epoca barroca se centra en pinturas realistas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="PICTURES/principal/musicbarroco.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="100"
+            height="600"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MUSICA</h5>
+            <p>La musica borraca un nuevo comienzo de la era.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="PICTURES/principal/RELIGION.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="100"
+            height="600"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RELIGION</h5>
+            <p>La religion fue muy importante y fundamental en esta epoca.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br /><br /><br /><br />
+    <!-- about barroco  -->
+
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="PICTURES/principal/CARD1.jpg"
+          class="card-img-top"
+          alt="..."
+          height="400"
+        />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            id="title"
+            onclick="controlFunction()"
+            onmouseover="paintToGivenColor('#ec521e')"
+            onmouseout="paintToGivenColor('#1abc52')"
+          >
+            BREVE HISTORIA DEL BARROCO
+          </h5>
+          <br />
+          <p class="card-text">
+            Sobre el final del siglo XVI, en Europa, nace la Contrarreforma, un
+            movimiento que surgió para hacer frente a la Reforma protestante de
+            Martín Lutero. <br /><br />
+            Dicha acción causó que la Iglesia católica reafirmara su poder en
+            varios aspectos, tomando un control absoluto de ellos; la educación,
+            por ejemplo. <br /><br />
+            Durante dicha época, había una enorme crisis dentro de la fe. La
+            división del cristianismo era cada vez mayor y la Iglesia tomó al
+            arte como una manera de propagar sus ideales. A su vez, se estaba
+            viviendo el auge de las conquistas en América, dándole una enorme
+            cantidad de riquezas a los europeos; gracias a esto, había un
+            predominio por lo que fuese elegante, extravagante y refinado ante
+            los ojos de la sociedad. <br /><br />
+            Partiendo de estos dos ideales yace el origen e inspiración del
+            movimiento Barroco, el cual nació en Roma, Italia, sobre el final
+            del Siglo XVI y se esparció por Europa a lo largo de los siglos XVII
+            y XVIII. <br /><br />
+          </p>
+          <p class="card-text">
+            <small class="text-muted">actualizado 2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="PICTURES/principal/card2.jpg"
+          class="card-img-top"
+          alt="..."
+          height="400"
+        />
+        <div class="card-body">
+          <h5 class="card-title">PRINCIPALES CARACTERISTICAS</h5>
+          <br />
+          <p class="card-text">
+            Si bien la palabra «barroco» hace referencia a algo defectuoso y en
+            su momento se empleaba de manera despectiva, gracias al movimiento
+            terminó por tomar otro significado, ya que tiene como característica
+            principal mostrar la belleza. <br /><br />
+            Dentro del arte barroco se encuentran varios nichos, en donde cada
+            uno presenta sus elementos característicos. <br /><br />
+          </p>
+          <ul>
+            <li
+              id="picture"
+              onclick2="controlFunctionpicture()"
+              onmouseover="paintToGivenColorpicture('blue')"
+              onmouseout="paintToGivenColorpicture('black')"
+            >
+              PINTURA: La técnica del claroscuro predomina, haciendo juego con
+              las expresiones dramáticas. Énfasis en el sentido de profundidad.
+              Exposición de la espiritualidad y la pasión
+            </li>
+            <br />
+            <li
+              id="architecture"
+              onclick3="controlFunctionarchitecture()"
+              onmouseover="paintToGivenColorarchitecture('#cfad16')"
+              onmouseout="paintToGivenColorarchitecture('black')"
+            >
+              ARQUITECTURA: Obras eclesiásticas. Exceso de ornamentos y
+              prioridad en los detalles decorativos. Formas curvas que den
+              sentido de movimiento.
+            </li>
+            <br />
+            <li
+              id="music"
+              onclick4="controlFunctionmusic()"
+              onmouseover="paintToGivenColormusic('#eb550a')"
+              onmouseout="paintToGivenColormusic('black')"
+            >
+              MUSICA: Extremos entre voces agudas y graves. Armonía tonal y
+              contrastes sonoros. Presencia de bajo continuo que da pie al
+              compás. Espacio a la improvisación.
+            </li>
+            <br />
+          </ul>
+
+          <p class="card-text">
+            <small class="text-muted">actualizado 2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          onmouseover="bigmeninas(this)"
+          onmouseout="normalmeninas(this)"
+          src="PICTURES/principal/themeninas.jpg"
+          class="card-img-top"
+          alt="..."
+          height="400"
+        />
+        <div class="card-body">
+          <h5 class="card-title">LAS MENINAS</h5>
+          <br />
+          <p class="card-text">
+            Las meninas es un retrato grupal que el artista español Diego
+            Velázquez realizó para el rey Felipe IV de Habsburgo. Representa a
+            la infanta Margarita, hija del rey, rodeada de los cortesanos a su
+            servicio. <br /><br />
+            La pintura presenta a once personajes y un perro, entre los que
+            están incluidos el mismo Velázquez autorretratado en el acto de
+            pintar un gran lienzo y, reflejados en un espejo ubicado en la pared
+            del fondo y apenas esbozados, los reyes. <br /><br />
+            Las meninas encierra, en su aparente sencillez compositiva,
+            sucesivas capas de significado que la transforman en una obra
+            maestra.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">actualizado 2022</small>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- finished of page -->
+    <div class="container my-5">
+      <section class="">
+        <!-- Footer -->
+        <footer
+          class="text-center text-white"
+          style="background-color: #0a4275"
+        >
+          <div class="container p-4 pb-0">
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">for more information museum: </span>
+                <button type="button" class="btn btn-outline-light btn-rounded">
+                  <a
+                    href="http://www.museoscolombianos.gov.co/Paginas/default.aspx"
+                    target="_blank"
+                    class="nav-link"
+                    href="#"
+                    >Sign up!</a
+                  >
+                </button>
+              </p>
+            </section>
+          </div>
+
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2022 Copyright:
+            <a
+              class="text-white"
+              href="https://www.instagram.com/mickeimon/?hl=es"
+              >by mickeimon</a
+            >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+    </div>
+    <!-- End  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="./index.js"></script>
+</html>
