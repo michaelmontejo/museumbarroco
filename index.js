@@ -135,6 +135,7 @@ function on_picture2(id) {
 
 function on_picture3(id) {
 	picture3 = document.getElementById("picture3").innerHTML = '<img src="./pictures/picturespage/jacob_jordaens_preview.jpg" />';
+	
 }
 
 
