@@ -11,17 +11,17 @@ body {
 
 .navbar-brand{
 
-  font-family: cursive;
+  
   color: #a36550;
   font-size: 18px;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .nav-item{
-  font-family: cursive;
+  
   color: #ec521e;
-
+  
 }
 
 
