@@ -135,7 +135,8 @@ function on_picture2(id) {
 
 function on_picture3(id) {
 	picture3 = document.getElementById("picture3").innerHTML = '<img src="./pictures/picturespage/jacob_jordaens_preview.jpg" />';
-	
+	//document.getElementById("p").setAttribute('src', 'circuloazul.png');
+	//picture3 = document.getElementById("picture3").setAttribute('src', 'pictures/picturespage/jacob_jordaens_preview.jpg')
 }
 
 
