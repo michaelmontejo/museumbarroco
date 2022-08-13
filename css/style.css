@@ -25,4 +25,33 @@ body {
 }
 
 
+.church {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  background-image: url("backgroundCHURCH.jpg");
+ 
+  /*
+  max-width: 1700px;
+  
+  
+  margin: 0 auto;*/
+}
 
+.bpictures {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  background-image: url("backgroundpictures.jpg");
+ 
+  /*
+  max-width: 1700px;
+  
+  
+  margin: 0 auto;*/
+}
+
+
+
+.text-center {
+  text-align: center!important;
+  color: #ffffff;
+}

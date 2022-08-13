@@ -110,7 +110,7 @@ function off_card3(id) {
 function on_card4(id) {
 	card4 = document.getElementById('card4').textContent = ' Este convento ostenta el primer puesto entre todas las casas de la Provincia, por haber sido el primero que se fundó en 1550 cuando llegaron de España los religiosos que venían a organizar formalmente la presencia de la Orden Franciscana en el Nuevo Reino de Granada. Por esta razón se conoce como "el Convento Máximo". Pero también se le llama "Convento de la Purificación" por ser este su titular. La primera sede que tuvo fue en el lugar que hoy se conoce como la Parroquia de las Nieves, en la carrera séptima, por muy poco tiempo. Luego estuvo en el mismo sitio que actualmente ocupa la iglesia de San Agustín. Pero en 1557 se trasladaron al emplazamiento actual, a las casas que les donó el arzobispo Fray Juan de los Barrios, también franciscano, que este compró al comerciante Juan Muñoz de Collantes. Aquí se dedicaron a construir el convento, que llegó a tener dos manzanas. En este convento tuvo su sede la Curia Provincial hasta finales de 1861 cuando el decreto de extinción de las comunidades religiosas en Nueva Granada, dejó sin legitimidad a los frailes. El convento pensó en ser utilizado como cárcel pública, pero no habiendo prosperado la idea, en 1862 se instaló la gobernación de Cundinamarca. Con motivo de los temblores de agosto de 1917, el edificio de la gobernación sufrió serios daños por lo cual fue demolido. Esto dio orígen a la construcción del actual palacio de la Gobernación, que se inició en 1918 y terminó en 1933, de conformidad con los planos que hizo el arquitecto francés Gastón Lelarge. ';
 
-	
+
 }
 
 function off_card4(id) {
@@ -119,6 +119,22 @@ function off_card4(id) {
 
 
 
+//page picture 1
 
+function on_picture1(id) {
+	picture1 = document.getElementById("picture1").innerHTML = '<img src="./pictures/picturespage/Rendicion_de_Breda_de_Velazquez.jpg" />';
+}
+
+//page picture 2
+
+function on_picture2(id) {
+	picture2 = document.getElementById("picture2").innerHTML = '<img src="./pictures/picturespage/barroco-totenart-Caravaggio.jpg" />';
+}
+
+//page picture 3
+
+function on_picture3(id) {
+	picture3 = document.getElementById("picture3").innerHTML = '<img src="./pictures/picturespage/jacob_jordaens_preview.jpg" />';
+}
 
 
